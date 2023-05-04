@@ -23,7 +23,8 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <LogoVPN className="h-8 w-auto" />
+            {/* <LogoVPN className="h-8 w-auto" /> */}
+            <p className="font-semibold text-3xl text-orange-500">Tayara</p>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
@@ -99,14 +100,14 @@ const Header = () => {
               Testimonial
             </LinkScroll>
           </ul>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
+          {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
               <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all">
-                  Sign In
+                Sign In
               </a>
             </Link>
             <ButtonOutline>Sign Up</ButtonOutline>
-          </div>
+          </div> */}
         </nav>
       </header>
       {/* Mobile Navigation */}
