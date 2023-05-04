@@ -66,3 +66,7 @@ li.check:before {
 @tailwind utilities;
 /* purgecss start ignore */
 /* purgecss end ignore */
+
+svg.social__svg > path:last-child{
+  fill: #1a1a5b !important;
+}
